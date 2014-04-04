@@ -65,7 +65,7 @@ TwitStore.getLastTweet(function(item) {
   query.count = twitter_conf.twitter_query_count;
   query.q = twitter_conf.twitter_harvest_search;
   query.result_type = twitter_conf.twitter_result_type;
-  var url = "https://api.twitter.com/1.1/search/tweets.json";
+  var url = twitter_conf.twitter_search_url;
 
   t.get(url, query, function(err, data) {
     if (typeof(data) != 'undefined' && data.statuses.length) {

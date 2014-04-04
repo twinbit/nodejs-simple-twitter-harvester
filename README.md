@@ -19,6 +19,8 @@ You must register on [Twitter](https://dev.twitter.com/) and create an applicati
 
 ### Twitter searches
 
+*File: config_twitter.js*
+
 ### MongoDB
 
 *File: config_twitter.js*
